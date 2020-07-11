@@ -1,26 +1,8 @@
-import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-  Container,
-} from "reactstrap";
+import React from "react";
+import { Navbar, NavbarBrand, NavbarText, Container } from "reactstrap";
 import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
     <div>
       <Navbar color="transparent" dark expand="md">

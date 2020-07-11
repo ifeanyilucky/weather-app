@@ -40,6 +40,7 @@ function News() {
               </div>
               <div className="d-flex">
                 <img
+                  alt={`News-${article.id}`}
                   href={article.url}
                   src={article.urlToImage}
                   className={style.newImg}
