@@ -7,8 +7,8 @@ const NavBar = (props) => {
     <div>
       <Navbar color="transparent" dark expand="md">
         <Container>
+    <Link to="/">
           <NavbarBrand
-            href="/"
             style={{
               fontSize: "25px",
               color: "#ffc400",
@@ -18,7 +18,7 @@ const NavBar = (props) => {
           >
             Wea<span class="font-weight-light">ther</span>
           </NavbarBrand>
-
+<Link>
           <NavbarText>
             <Link to="/news">
               <button
