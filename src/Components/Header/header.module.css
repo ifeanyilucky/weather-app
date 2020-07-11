@@ -1,0 +1,12 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../../Assets/world.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  color: white;
+}
+.headerText {
+  padding-top: 7rem;
+}
